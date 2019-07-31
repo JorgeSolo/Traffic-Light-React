@@ -1,13 +1,88 @@
 @import "~bootstrap/scss/bootstrap.scss";
+#lightTop{
+    background-color: black;
+    width : 10px;
+    height: 137px;
+    margin-left: 239px;
 
-/* 
+}
+#container{
+    background-color: black;
+    width:118px;
+    height: 340px;
+    margin-left: 186px;
+    border-radius: 10px;
+    border: solid 5px;
+    padding: 7px;
+}
+.lights{
+    height: 80px;
+  width: 80px;
+  margin: auto;
+  border-radius: 50%;
+  padding:20px
+
+  }
+
+.redLight{
+background-color: red
+}
+.yellowLight{
+background-color: yellow
+}
+.greenLight{
+background-color: green
+}
+
+/*.redLight{
+
+height: 80px;
+  width: 80px;
+  background-color: red;
+  margin: auto;
+  border-radius: 50%;
+  padding:20px
+
+}
+.yellowLight{
+height: 80px;
+  width: 80px;
+  background-color:yellow;
+  margin: auto;
+  border-radius: 50%;
+  padding:20px;
+  position: relative;
+  top:48px;
+
+}
+.greenLight{
+height: 80px;
+  width: 80px;
+  background-color:rgb(62, 168, 62);
+  border-radius: 50%;
+  margin:auto;
+  padding: 20px;
+  position: relative;
+  top: 86px;
+
+}*/
+.selected {
+    box-shadow: 0px 0px 40px 20px white;
+}
+
+
+
+
+
+
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
