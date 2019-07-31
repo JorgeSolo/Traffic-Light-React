@@ -26,8 +26,7 @@ export class TrafficLight extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			clickedLight: null,
-			array: []
+			clickedLight: null
 		};
 	}
 	render() {
@@ -52,8 +51,7 @@ export class TrafficLight extends React.Component {
 						className={"lights redLight " + redExtraClass}
 						onClick={() =>
 							this.setState({
-								clickedLight: "red",
-								array: [5]
+								clickedLight: "red"
 							})
 						}
 					/>
